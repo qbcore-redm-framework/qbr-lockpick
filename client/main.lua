@@ -1,4 +1,4 @@
-AddEventHandler('qb-lockpick:client:openLockpick', function(callback)
+AddEventHandler('qbr-lockpick:client:openLockpick', function(callback)
     lockpickCallback = callback
     openLockpick(true)
 end)
